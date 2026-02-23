@@ -30,12 +30,17 @@ Important: **Design patterns are intentionally not used yet** in the instruction
 - Ex7–Ex8: ISP
 - Ex9–Ex10: DIP
 
+## Repo structure
+`SST28-LLD101/SOLID/ex01` … `ex10` — each has `src/` with compile/run-ready code. Entry point per exercise: `Demo01.java` … `Demo10.java`.
+
 ## Running any exercise
-From the exercise folder (example: `SOLID/Ex1/src`):
+From the exercise `src` folder (example: `SOLID/ex01/src`):
 
 ```bash
 javac *.java
-java Main
+java Demo01
 ```
+
+For ex02: `java Demo02`; … ex10: `java Demo10`.
 
 No Maven/Gradle. Java 17. Default package (no `package` lines).
